@@ -1,0 +1,30 @@
+div.search-container {
+  position: absolute;
+  background-color: white;
+  z-index: 20;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 5px;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  display: none;
+  &.showing {
+    display: block;
+  }
+
+  input[type="text"] {
+    min-width: 100%;
+    font-size: 36px;
+    line-height: 50px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+  }
+
+  i.close {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 36px;
+    line-height: 50px;
+  }
+}
